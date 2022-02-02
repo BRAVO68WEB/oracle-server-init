@@ -33,8 +33,8 @@ bash ./gitea-installer-en.sh
 
 ## Configure Git 
 echo "Configure Git ..."
-git config --global user.name "ecgitsync"
-git config --global user.email "team@engineerscradle.com"
+git config --global user.name "username"
+git config --global user.email "your@email.net"
 
 ## Insatll basic npm packages
 echo "Insatll basic npm packages ..."
