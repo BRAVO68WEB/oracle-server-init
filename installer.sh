@@ -50,9 +50,23 @@ echo "Insatll basic npm packages ..."
 yarn global add nodemon
 
 ## Install snapcraft
-echo "Install snapcraft ..."
-apt install snapd -y
+echo "Install snapd ..."
+sudo apt install snapd -y
+git clone https://github.com/snapcore/snapd.git
+cd snapd
+echo "Build snapcraft ..."
+sudo apt-get build-dep .
+go get ./... && ./get-deps.sh
+sudo snap install snapcraft --channel=4.x
+snapcraft
+snap install --dangerous snapd_*.snap
 
 ## Install Bpytop
 echo "Install Bpytop ..."
-snap install bpytop
+git clone https://github.com/aristocratos/bpytop.git
+cd bpytop
+make install
+echo "Installed Bpytop with Pip ..."
+pip3 install bpytop
+echo "Upgrade Bpytop with Pip ..."
+pip3 install bpytop --upgrade
