@@ -26,4 +26,4 @@ These are List of script in order setup your Orace Server for Open Use
 
 ## License
 
-All Softwares mentioned here are licensed by their respective owners. This Repository is licensed under the MIT License.
+All Softwares mentioned here are licensed by their respective owners. This Repository is licensed under the [MIT License](LICENSE).
