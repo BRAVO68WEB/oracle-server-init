@@ -2,6 +2,8 @@
 
 These are List of script in order setup your Orace Server for Open Use
 
+![](https://github.com/alfazzafashion/oracle-server-init/blob/main/Screenshot%202022-03-25%20130315.png)
+
 ## Platforms and Software's being installed :-
 
 - [CloudPanel](https://cloudpanel.io)
