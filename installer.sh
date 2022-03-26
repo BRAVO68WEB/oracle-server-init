@@ -62,10 +62,6 @@ snapcraft
 snap install --dangerous snapd_*.snap
 
 ## Install Bpytop
-echo "Install Bpytop ..."
-git clone https://github.com/aristocratos/bpytop.git
-cd bpytop
-make install
 echo "Installed Bpytop with Pip ..."
 pip3 install bpytop
 echo "Upgrade Bpytop with Pip ..."
