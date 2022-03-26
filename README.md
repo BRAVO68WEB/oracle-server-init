@@ -2,6 +2,8 @@
 
 These are List of script in order setup your Orace Server for Open Use
 
+![](https://github.com/alfazzafashion/oracle-server-init/blob/main/Screenshot%202022-03-25%20130315.png)
+
 ## Platforms and Software's being installed :-
 
 - [CloudPanel](https://cloudpanel.io)
@@ -24,4 +26,4 @@ These are List of script in order setup your Orace Server for Open Use
 
 ## License
 
-All Softwares mentioned here are licensed by their respective owners. This Repository is licensed under the MIT License.
+All Softwares mentioned here are licensed by their respective owners. This Repository is licensed under the [MIT License](LICENSE).
