@@ -7,7 +7,3 @@ iptables -P FORWARD ACCEPT
 iptables -F
 
 iptables --flush
-
-echo "iptables rules applied -> ports are open"
-
-bpytop
