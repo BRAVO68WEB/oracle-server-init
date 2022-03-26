@@ -51,7 +51,6 @@ yarn global add nodemon
 
 ## Install snapcraft
 echo "Install snapd ..."
-sudo apt install snapd -y
 git clone https://github.com/snapcore/snapd.git
 cd snapd
 echo "Build snapcraft ..."
