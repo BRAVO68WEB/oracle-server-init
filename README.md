@@ -18,7 +18,7 @@ These are List of script in order setup your Orace Server for Open Use
 
 ## Order of installation
 
-1. [`startup.sh`](startup.sh) -> Installs Debian 10
+1. [`startup.sh`](startup.sh) -> Installs Debian 10 (Optional after Cloudanel v2 release)
 2. [`installer.sh`](installer.sh) -> Installs all Softwares and it's Dependencies
 3. [`open-network.sh`](open-network.sh) -> All Internal Network Ports and for ingress and exgress communication
 
