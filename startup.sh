@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Installing Debian 10 over current OS"
+echo "Installing Debian 11 over current OS"
 sudo apt install curl -y
 curl -fLO https://raw.githubusercontent.com/bohanyang/debi/master/debi.sh && chmod a+rx debi.sh
 
