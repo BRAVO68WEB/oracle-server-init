@@ -4,7 +4,7 @@
 echo "Installing Cloudpanel ..."
 apt update && apt -y upgrade && apt -y install curl wget sudo
 echo "Installed Dependencies ..."
-curl -sSL https://installer.cloudpanel.io/ce/v1/install.sh | sudo bash
+curl -sSL https://installer.cloudpanel.io/ce/v2/install.sh | sudo bash
 echo "Installed Cloudpanel ..."
 
 ## Installing Docker
@@ -21,8 +21,7 @@ echo "Installed Docker ..."
 
 ## Installing docker-compose
 echo "Installing docker-compose ..."
-curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
+apt-get install docker-compose-plugin
 echo "Installed docker-compose ..."
 
 ## Installing Portainer
