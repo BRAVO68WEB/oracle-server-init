@@ -8,4 +8,7 @@ iptables -F
 
 iptables --flush
 
+sudo netfilter-persistent save
+
 echo "iptables rules applied -> ports are open"
+echo "changes made persistent over reboot"
